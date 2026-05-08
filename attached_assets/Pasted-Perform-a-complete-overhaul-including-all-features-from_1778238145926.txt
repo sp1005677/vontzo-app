@@ -1,0 +1,45 @@
+Perform a complete overhaul including all features from previous prompts plus these missing 'Store-Ready' details. Use all uploaded .png.jpg images correctly.
+
+1. Complete Feature Set (Duolingo Style):
+
+Persistent Bottom Navbar: Fully functional tabs for Learn, League, Profile, and Shop.
+
+Heart & Streak System: Implement a 5-heart limit and a daily streak counter. If hearts reach 0, block access to Arena until they refill or are bought in the Shop using XP.
+
+Leagues & Rankings: Create a 'Closer League' with a countdown timer. Ensure 'Santiago Pallaress' is at rank #4 with interactive bot profiles above him.
+
+Progressive Map: Sections (e.g., 'Section 1: The Rookie') must have a blue header and a progress bar. Levels must be locked (grayed out) until the previous one is finished.
+
+2. The AI & Robot Integration (The Core):
+
+AI Feedback Engine: In the Arena, implement an 'AI Coach' mode. After the user answers, provide a dynamic grade (S, A, B, C) and feedback text.
+
+Character Logic: - Use Rocco (/rocco_neutral.png.jpg, /rocco_serious.png.jpg, /rocco_victory.png.jpg) for sales strategy.
+
+Introduce Z-01 (The Robot) placeholder for technical/CRM levels.
+
+Bottom Feedback Drawer: A slide-up drawer (Green/Red) that appears after answering, featuring the character's reaction and AI tips.
+
+3. Sound & Juiciness:
+
+Sound System: Implement a sound manager utility. Trigger placeholder sounds for: Correct Answer, Wrong Answer, Button Click, and Level Complete.
+
+Visual Effects: Trigger a Confetti animation on level completion and 'Pulse' effects on the current active level in the map.
+
+4. Store Readiness (PWA & Tech):
+
+PWA Setup: Create a manifest.json and a service worker logic so the app can be 'Added to Home Screen' on iPhone/Android.
+
+Onboarding: If xp === 0, show a quick 3-step welcome carousel with Rocco explaining Vontzo.
+
+Profile Tab: Include 'Achievements' badges (e.g., 'First Sale', '7-Day Streak').
+
+5. Design Polish:
+
+Add Electric Blue Glows behind characters.
+
+Use framer-motion for 'Pop' and 'Spring' animations on all buttons and transitions.
+
+Ensure 100% mobile responsiveness and a premium dark-theme finish.
+
+Refactor App.tsx, GameContext.tsx, and all page files to ensure this is a single, cohesive, high-performance application.
