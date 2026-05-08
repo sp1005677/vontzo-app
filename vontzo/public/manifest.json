@@ -1,0 +1,20 @@
+{
+  "name": "VONTZO: Sales Sharpened",
+  "short_name": "VONTZO",
+  "description": "Gamified sales training — sharpen your skills daily.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "en"
+}
